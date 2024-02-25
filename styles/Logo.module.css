@@ -1,0 +1,52 @@
+.container {
+    flex: 1 1 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-right: 2px solid #353c47;
+}
+
+.logo{
+    font-size: 60px;
+    transform: rotate(180deg);
+    margin: 10px 40px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+.logoutContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.firstname{
+    font-size: 20px;
+}
+
+.username{
+    color: #6b7582;
+    margin-top: 10px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #353c47;
+    font-weight: 600;
+    margin-left: 40px;
+    color: white;
+}
+
+.button:hover{
+    background-color: #353c47;
+    cursor: pointer;
+}
